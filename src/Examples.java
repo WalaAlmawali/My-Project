@@ -4,4 +4,9 @@ public class Examples {
 
 
     }
+    public  static int factorialNum(int num ){
+
+
+
+    }
 }
