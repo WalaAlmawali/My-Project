@@ -7,9 +7,9 @@ public class MultiplicationTable {
         System.out.print("Enter a number :" );
         int number = Integer.parseInt(sc.nextLine().trim());
 
+       for(int i = 0 ; i<= 10 ; i++ ){
 
-
-
+       }
 
     }
 
