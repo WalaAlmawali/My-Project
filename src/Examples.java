@@ -13,6 +13,10 @@ public class Examples {
 
         int [] arr = new int[arrSize];
 
+        for(int i=0;i<arr.length;i++) {
+
+        }
+
     }
     public  static int factorialNum(int num ){
         int result = 1;
