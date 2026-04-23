@@ -4,9 +4,12 @@ public class Examples {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number :" );
+       /* System.out.print("Enter a number :" );
         int UserInput = Integer.parseInt(sc.nextLine().trim());
-        System.out.println(factorialNum(UserInput));
+        System.out.println(factorialNum(UserInput));*/
+
+        System.out.print("Enter the number of numbers you want to add :" );
+        int arrSize = Integer.parseInt(sc.nextLine());
 
     }
     public  static int factorialNum(int num ){
