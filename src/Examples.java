@@ -9,15 +9,17 @@ public class Examples {
         System.out.println(factorialNum(UserInput));*/
 
         System.out.print("Enter the number of numbers you want to add :" );
-        int arrSize = Integer.parseInt(sc.nextLine());
+        int arrSize = Integer.parseInt(sc.nextLine().trim());
 
         int [] arr = new int[arrSize];
 
-        for(int i=0;i<arr.length;i++) {
-            System.out.print("Enter the number:");
+        for(int i=0;i<arrSize;i++) {
+            System.out.print("Enter the number " + i+ ":");
             arr[i] = Integer.parseInt(sc.nextLine());
         }
 
+
+        System.out.print("the total number of numbers is :" + SumOfNumbers(arr));
     }
     public  static int factorialNum(int num ){
         int result = 1;
