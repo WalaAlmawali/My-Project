@@ -6,6 +6,10 @@ public class Examples {
     }
     public  static int factorialNum(int num ){
 
+        for(int i = 1; i<=num;i++){
+
+
+        }
 
 
     }
