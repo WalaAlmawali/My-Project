@@ -20,8 +20,7 @@ public class Examples {
     }
 
     public static int SumOfNumbers(int [] arr){
-
-
+        int total = 0;
 
     }
 
