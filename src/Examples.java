@@ -14,7 +14,8 @@ public class Examples {
         int [] arr = new int[arrSize];
 
         for(int i=0;i<arr.length;i++) {
-
+            System.out.print("Enter the number:");
+            arr[i] = Integer.parseInt(sc.nextLine());
         }
 
     }
