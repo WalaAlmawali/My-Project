@@ -4,6 +4,10 @@ public class Examples {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter a number :" );
+        int UserInput = sc.nextInt();
+
+
 
 
 
