@@ -5,20 +5,18 @@ public class Examples {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number :" );
-        int UserInput = sc.nextInt();
-
-
-
-
+        int UserInput = Integer.parseInt(sc.nextLine().trim());
+        System.out.println(factorialNum(UserInput));
 
     }
     public  static int factorialNum(int num ){
+        int result = 1;
 
         for(int i = 1; i<=num;i++){
 
-            num*= i;
+            result*= i;
         }
 
-        return num;
+        return result;
     }
 }
