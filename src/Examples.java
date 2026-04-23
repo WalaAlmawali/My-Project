@@ -11,6 +11,6 @@ public class Examples {
             num*= i;
         }
 
-
+        return num;
     }
 }
