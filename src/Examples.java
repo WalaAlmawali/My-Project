@@ -25,8 +25,7 @@ public class Examples {
             total+=arr[i];
 
         }
-
+        return total;
     }
-
 
 }
