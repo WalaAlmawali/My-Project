@@ -11,6 +11,8 @@ public class Examples {
         System.out.print("Enter the number of numbers you want to add :" );
         int arrSize = Integer.parseInt(sc.nextLine());
 
+        int [] arr = new int[arrSize];
+
     }
     public  static int factorialNum(int num ){
         int result = 1;
