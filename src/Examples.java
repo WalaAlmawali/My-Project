@@ -16,7 +16,14 @@ public class Examples {
 
             result*= i;
         }
-
         return result;
     }
+
+    public static int SumOfNumbers(int [] arr){
+
+
+
+    }
+
+
 }
