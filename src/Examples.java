@@ -22,7 +22,7 @@ public class Examples {
     public static int SumOfNumbers(int [] arr){
         int total = 0;
         for(int i = 0 ; i< arr.length;i++){
-
+            total+=arr[i];
 
         }
 
