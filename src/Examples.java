@@ -8,7 +8,7 @@ public class Examples {
 
         for(int i = 1; i<=num;i++){
 
-
+            num*= i;
         }
 
 
